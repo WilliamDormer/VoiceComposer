@@ -3,7 +3,7 @@
 
 const record = document.querySelector('.record');
 const stopquery = document.querySelector('.stop');
-const soundClips = document.querySelector('.sound-clips');
+const soundClips = document.querySelector('.tracks');
 const canvas = document.querySelector('.visualizer');
 const mainSection = document.querySelector('.main-controls');
 
