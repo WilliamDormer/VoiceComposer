@@ -1,0 +1,45 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; media-src 'self' blob:">
+    <title>VoiceComposer</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Web dictaphone (get rid of this)</h1>
+        </header>
+
+        <section class="main-controls">
+            <canvas class="visualizer", height="60px"></canvas>
+            <div id="buttons">
+                <button class="record">Record</button>
+                <button class="stop">Stop</button>
+            </div>
+        </section>
+
+        <section class="sound-clips">
+
+
+        </section>
+    </div>
+
+    <label for="toggle"> ? </label>
+    <input type="checkbox" id="toggle">
+    <aside>
+        <h2>Information</h2>
+        <p>Web dictaphone is built using me lol</p>
+    </aside>
+    <script src="scripts/audiorecord.js"></script>
+
+    <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+  </body>
+</html>

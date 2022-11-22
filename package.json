@@ -1,0 +1,19 @@
+{
+  "name": "voicecomposer",
+  "version": "1.0.0",
+  "description": "software for composing music using the musician's voice as the primary input.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "William Dormer",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.3.0"
+  },
+  "dependencies": {
+    "electron-prompt": "^1.7.0",
+    "smalltalk": "^4.1.1"
+  }
+}
